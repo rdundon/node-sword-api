@@ -3,7 +3,10 @@ services:
   api:
     container_name: api
     build: .
+    environment:
+      NODE_ENV: development
     volumes:
       - .:/api
     ports:
-      - "3000:3000" 
+      - "3000:3000" # web/API
+      - "9229:9229" # debug
