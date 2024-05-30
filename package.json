@@ -1,0 +1,16 @@
+{
+  "name": "bible-verse-api-node",
+  "version": "1.0.0",
+  "description": "Little API to use SWORD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Dundon <rmdundon@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-sword-interface": "^1.0.20"
+  }
+}
