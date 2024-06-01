@@ -9,6 +9,8 @@
             "request": "attach",
             "name": "Docker: Attach to Node",
             "remoteRoot": "/api",
+            "localRoot": "${workspaceFolder}",
+            "restart": true,
             "port": 9229 // Optional; otherwise inferred from the docker-compose.debug.yml.
         },
         // ...

@@ -6,4 +6,3 @@ RUN npm ci
 COPY *.js ./
 CMD npm start --inspect=0.0.0.0:9229
 EXPOSE 3000
-EXPOSE 9229
