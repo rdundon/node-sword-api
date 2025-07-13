@@ -8,9 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Robert Dundon <rmdundon@gmail.com>",
-  "license": "ISC",
+  "license": "GPL-2.0-only",
   "dependencies": {
     "express": "^4.19.2",
-    "node-sword-interface": "^1.0.20"
+    "node-sword-interface": "^1.0.20",
+    "nodemon": "~3.1.2"
+  },
+  "devDependencies": {
   }
 }
